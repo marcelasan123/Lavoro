@@ -25,6 +25,7 @@ html {
     --titulohome--: #785337; /*Cor Título Home*/
     --subtitulohome--: #876434; /*Cor Subtítulo Home*/
     --verderodape--: #606831; /*Cor Rodapé*/
+    
 }
 
 
@@ -35,6 +36,8 @@ html {
 .navegar{
     flex-direction: column;
     text-decoration: none;
+    align-items: baseline;
+    margin-left: 3vh;
 }
 
 .navegar a {
@@ -46,8 +49,10 @@ html {
 .fundobarra {
     background-color: var(--BegeEscuro--);
     height: 70vh;
+    width: 35vh;
     color: var(--Branco--);
 }
+
 
 
 /* Home - ana */
@@ -105,16 +110,134 @@ footer{
 /* rodapé fim - ana */
 
 
-/* GREGA - CADASTRO */
+/* GREGA - INÍCIO */
  .img-cadastro {
     width: 100vh;
     height: 55vh;
  }
 
  .fundo-cadastro {
-    margin-top: -70vh;
+    background-image: url(/static/img/imgcadastro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     text-align: center;
+    padding-top: 100px;
+    height: 790px;
  }
+
+ .titulo-login{
+    margin-top: 20vh;
+ }
+
+ .fundo-login{
+    background-image: url(/static/img/imglogin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    height: 790px;
+    
+ }
+
+ .form-cadastro{
+    background-color: rgba(245, 245, 245, 0.6);
+    padding: 8vh;
+    width: 50vh;
+    margin-left: 71vh;
+    border-radius: 5vh;
+    height: 70vh;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+ }
+
+ input {
+ height: 5vh;
+  width: 50vh;
+  background-color: #F5F5F5;
+  border: none;
+  border-radius: 3vh; 
+  padding: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+  justify-content: center;
+}
+
+.titulo-cadastro{
+    color: rgba(155, 166, 87, 1);
+    font-family: Merriweather;
+}
+
+.botao-cadas{
+    background-color: rgba(155, 166, 87, 1);
+    height: 5vh;
+    width: 20vh;
+    border-radius: 25vh;
+    font-family: Merriweather;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.cadastro-nome{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.cadastro-telefone{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.cadastro-email{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.cadastro-senha{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.cadastro-confirma{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
