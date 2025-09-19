@@ -1,73 +1,92 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>edição de Produto</title>
-     <link rel="stylesheet" href="static/css/styll.css">
+    <title>Edição Perfil</title>
+    <link rel="stylesheet" href="../../static/css/style.css">
 </head>
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>edição de Insumo</title>
+  <link rel="stylesheet" href="../../static/css/style.css">
+</head>
+
 <body>
 
-  
-   <header>
-         <img src="../../static/img/logo.png"Logo da Lavoro">
-        <button type="submit" class="botao-sair">Sair</button>
-    </header>
 
-    <main>
-    <div class="edicao-produto">
-      <h2>Editar insumo</h2>
-      <form>
-        <div class="nome-insumo">
-          <label for="nome">Nome do insumo (ex: Farinha de trigo, leite condensado)</label>
-          <input type="text" id="nome" nome="nome-insumo">
-        </div>
+  <header>
+    <img src="../../static/img/logo.png" alt="Logo da Lavoro">
+    <button type="submit" class="botao-sair">Sair</button>
+  </header>
 
-        <div class="unidade-medida">
-          <label for="unidade">Unidade de medida</label>
-          <input type="text" id="unidade" nome="unidada-medida">
-        </div>
 
-        <div class="custo-unitario">
-          <label for="custo">Custo unitário</label>
-          <input type="text" id="custo" nome="custo-unitario">
-        </div>
-
-        <div class="botoes-edicao">
-          <button type="submit" class="btn-cancelar">Cancelar</button>
-          <button type="submit" class="btn-salvar">Salvar</button>
-        </div>
-      </form>
+  <main class="d-flex">
+    <div class="fundobarra">
+      <h4> Funcionalidades </h4>
+      <nav class="navegar d-flex">
+        <a href="" class="linksn d-flex"><img src="../../static/img/Pessoa.png" alt="Icone de pessoa">Perfil</a>
+        <a href="" class="linksn d-flex"><img src="../../static/img/carrinho_insumos.png"
+            alt="Icone de Insumos">Insumos</a>
+        <a href="" class="linksn d-flex"><img src="../../static/img/caixa_de_produto.png"
+            alt="Icone da caixa de produtos">Produtos</a>
+        <a href="" class="linksn d-flex"><img src="../../static/img/icone_lucratividade.png"
+            alt="Icone de um saco de dinheiro">Lucratividade</a>
+      </nav>
     </div>
-  </main>
 
 
-  <footer>
+      <div class="edicao-produto">
+        <h2>Editar insumo</h2>
+        <form>
+          <div class="nome-insumo">
+            <label for="nome">Nome do insumo (ex: Farinha de trigo, leite condensado)</label>
+            <input type="text" id="nome" nome="nome-insumo">
+          </div>
+
+          <div class="unidade-medida">
+            <label for="unidade">Unidade de medida</label>
+            <input type="text" id="unidade" nome="unidada-medida">
+          </div>
+
+          <div class="custo-unitario">
+            <label for="custo">Custo unitário</label>
+            <input type="number" id="custo" nome="custo-unitario">
+          </div>
+
+          <div class="botoes-edicao">
+            <button type="submit" class="btn-cancelar">Cancelar</button>
+            <button type="submit" class="btn-salvar">Salvar</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+
+    <footer>
+      <div>
+        <img src="../../static/img/logo.png" alt="Logo da Lavoro">
+        <p>© 2025 Lavoro – Todos os direitos reservados</p>
+      </div>
+      <div class="contato">
         <div>
-            <img src="../../static/img/logo.png da Lavoro">
-            <p>© 2025 Lavoro – Todos os direitos reservados</p>
+          <img src="../../static/img/Icone_localização.png" alt="Ícone de localização">
+          <p>Rua Barão do Rio Branco - Birigui/SP</p>
         </div>
         <div>
-            <div>
-            <div>
-                <img src="../../static/img/Icone_localização.png de localização" alt="Ícone de localização">
-                <p>Rua Barão do Rio Branco - Birigui/SP</p>
-            </div>
-            <div>
-                <img src="../../static/img/Icone_telefone.png" alt="Ícone de telefone" alt="Ícone de telefone">
-                <p>(11) 99999-9999</p>
-            </div>
-            <div>
-                <img src="../../static/img/Caixa_de_email.png" alt="Ícone de email">
-                <p>Lavoro@gmail.com</p>
-            </div>
+          <img src="../../static/img/Icone_telefone.png" alt="Ícone de telefone">
+          <p>(11) 99999-9999</p>
         </div>
+        <div>
+          <img src="../../static/img/Caixa_de_email.png" alt="Ícone de email">
+          <p>Lavoro@gmail.com</p>
+        </div>
+      </div>
     </footer>
-
 </body>
+</body>
+
 </html>
-  
-
-
-
-
