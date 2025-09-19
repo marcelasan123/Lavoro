@@ -81,14 +81,31 @@ footer{
     font-size: 0.9rem;
     color: var(--verderodape--);
     margin-top: 2rem;
-    display: flex;  
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+
 }
 
 /* rodapé fim - ana */
 
 
 /* GREGA - CADASTRO */
- .img-cadastro {}
+ .img-cadastro {
+    width: 100vh;
+    height: 55vh;
+ }
+
+ .fundo-cadastro {
+    margin-top: -70vh;
+    text-align: center;
+ }
+
+
+
+ /* GREGA - CADASTRO FIM */
+
+
 
 .paginainicial{
     display: flex;

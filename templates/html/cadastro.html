@@ -8,49 +8,49 @@
 </head>
 
 <body>
+     <header>
+         <img src="../../static/img/logo.png" alt="Logo da Lavoro">
+        <button>---</button>
+    </header>
+
     <main>
         <section>
-            <h1>Cadastre-se!</h1>
-        </section>
+            
+            <div class="fundo-cadastro"> 
+                <section class="titulo-cadastro">
+                    <h1>Cadastre-se!</h1>
+            
+                <form >
+                    <div>
+                        <label class="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
 
-        <section>
-            <img class="img-cadastro" src="/static/img/imgcadastro.png" alt="produtora sorrindo plantando em sua colheita">
-        </section>
+                    <div>
+                        <label class="telefone">Telefone</label>
+                        <input type="number" id="telefone" name="telefone" required>
+                    </div>
 
-            <img src="/static/img/imgcadastro.png">
-        </section>
+                    <div>
+                        <label class="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
 
+                    <div>
+                        <label class="senha">Senha</label>
+                        <input type="password" id="senha" name="senha" required>
+                    </div>
 
-        <section>
-            <form>
-                <div>
-                    <label class="nome">Nome</label>
-                    <input type="text" id="nome" name="nome" required>
-                </div>
-
-                <div>
-                    <label class="telefone">Telefone</label>
-                    <input type="number" id="telefone" name="telefone" required>
-                </div>
-
-                <div>
-                    <label class="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-
-                <div>
-                    <label class="senha">Senha</label>
-                    <input type="password" id="senha" name="senha" required>
-                </div>
-
-                <div>
-                    <label class="confirma-senha">Confirmar senha</label>
-                    <input type="password" id="confirma-senha" name="confirma-senha">
-                </div>
-                <br>
-                 <button type="submit">Cadastrar</button>
-            </form>
+                    <div>
+                        <label class="confirma-senha">Confirmar senha</label>
+                        <input type="password" id="confirma-senha" name="confirma-senha">
+                    </div>
+                    <br>
+                    <button type="submit">Cadastrar</button>
+               </form>
+            </div>  
         </section>
     </main>
+
 </body>
 </html>
