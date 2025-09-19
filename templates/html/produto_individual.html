@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produto</title>
+    <title>Produtos_Individuais</title>
     <link rel="stylesheet" href="../../static/css/style.css">
 </head>
 <body>
@@ -22,25 +22,30 @@
                     <a href="" class=""><img src="../../static/img/icone_lucratividade.png" alt="Icone de um saco de dinheiro">Lucratividade</a>
                 </nav>
             </Div>
-        </div>
+        </div>  
         <div>
-          <div>
-            <h2>Buscar Produto</h2>  
-            <button class="BotaoVerde">Buscar</button>
-            <a href="" class="BotaoMarrom">+</a>
-          </div>
-          <h3>Produtos</h3>
-          <table>
-            <tr>
-                <td><a href="{{}}"">{{}}</a></td>
-                <td>{{}}</td>
-                <td>{{}}</td>
-                <td>
-                    <a class="BotaoMarromL" href="{{}}">Editar</a>
-                </td>
-                <td><button class="BotaoVermelho">Excluir</button></td>
-            </tr>
-          </table>
+            <section>
+                <h3 class="NomeP">{{}}</h3>
+                <p class="TempoDoP">Tempo de preparo: {{}}</p>
+                <p class="IdP">Código: {{}}</p>
+                <p >Insumos: </p>
+                <div>
+                    <a href="">+</a>
+                </div>
+                <table>
+                    <tr>
+                        <td>{{}}</td>
+                        <td>{{}}</td>
+                        <td>{{}}</td>
+                        <td><button class="BotaoVermelho">Excluir</button></td>
+                    </tr>
+                </table>
+                <p>Preço de Venda: R${{}}</p>
+                <Button class="BotaoVerde">Lucro</Button>
+
+                <a href="" class="BotaoVermelhoL">Cancelar</a>
+                <Button class="BotaoVerde">Ok</Button>
+            </section>
         </div>
     </main>
     <footer>
