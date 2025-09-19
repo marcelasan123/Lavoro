@@ -36,6 +36,8 @@ html {
 .navegar{
     flex-direction: column;
     text-decoration: none;
+    align-items: baseline;
+    margin-left: 3vh;
 }
 
 .navegar a {
@@ -47,8 +49,10 @@ html {
 .fundobarra {
     background-color: var(--BegeEscuro--);
     height: 70vh;
+    width: 35vh;
     color: var(--Branco--);
 }
+
 
 
 /* Home - ana */
