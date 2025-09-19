@@ -26,3 +26,21 @@ html {
     flex-direction: column;
 
 }
+
+/* Home - ana */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: var(--BegeClaro--);
+}
+
+header button{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--BegeEscuro--);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
