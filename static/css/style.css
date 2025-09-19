@@ -21,11 +21,12 @@ html {
     --CinzaEscuro--: #E9E9E9; /*Cor Detalhes*/
 }
 
-.navergar{
+.navegar{
     display: flex;
     flex-direction: column;
 
 }
+
 
 /* Home - ana */
 header{
@@ -44,3 +45,15 @@ header button{
     border-radius: 0.5rem;
     cursor: pointer;
 }
+
+/* GREGA - CADASTRO */
+ .img-cadastro {}
+
+
+
+
+
+
+
+
+/* GREGA - FIM CADASTRO */
