@@ -22,6 +22,9 @@ html {
     --Branco--: #FFFFFF; /*Cor Fundo*/
     --CinzaClaro--: #F5F5F5; /*Cor Detalhes*/
     --CinzaEscuro--: #E9E9E9; /*Cor Detalhes*/
+    --titulohome--: #785337; /*Cor Título Home*/
+    --subtitulohome--: #876434; /*Cor Subtítulo Home*/
+    --verderodape--: #606831; /*Cor Rodapé*/
 }
 
 .navegar{
@@ -49,6 +52,43 @@ header button{
     border-radius: 0.5rem;
     cursor: pointer;
 }
+.paginainicial{
+    background-image: url(../img/Imagem_de_fundo_home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    height: 600px;
+}
+
+.textoinicial h1{
+    color: var(--titulohome--);
+    font-size: 2.5rem;
+}
+
+.textoinicial p{
+    color: var(--subtitulohome--);
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+/* home fim - ana */
+
+/* rodapé - ana */
+footer{
+    background-color: var(--BegeClaro--);
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: var(--verderodape--);
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;;
+}
+
+
+/* rodapé fim - ana */
+
 
 /* GREGA - CADASTRO */
  .img-cadastro {}
