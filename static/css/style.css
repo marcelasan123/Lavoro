@@ -1,0 +1,28 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --BejeEscuro--: #A68C69; /*Cor principal*/
+    --BejeClaro--: #F0E5C9; /*Cor principal*/
+    --VerdeEscuro--:  #878F55; /*Cor Secundaria*/
+    --Preto--: #000000; /*Cor Secundaria*/
+    --VermelhoPastel--:  #D74747; /*Cor Botão*/
+    --Branco--: #FFFFFF; /*Cor Fundo*/
+    --CinzaClaro--: #F5F5F5; /*Cor Detalhes*/
+    --CinzaEscuro--: #E9E9E9; /*Cor Detalhes*/
+}
+
+.navergar{
+    display: flex;
+    flex-direction: column;
+
+}
