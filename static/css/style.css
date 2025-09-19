@@ -27,10 +27,26 @@ html {
     --verderodape--: #606831; /*Cor Rodapé*/
 }
 
-.navegar{
-    display: flex;
-    flex-direction: column;
 
+.d-flex{
+    display: flex;
+}
+
+.navegar{
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.navegar a {
+    color: var(--Branco--);
+    margin-top: 2vh;
+    align-items: center;
+}
+
+.fundobarra {
+    background-color: var(--BegeEscuro--);
+    height: 70vh;
+    color: var(--Branco--);
 }
 
 
@@ -80,7 +96,6 @@ footer{
     padding: 1rem;
     font-size: 0.9rem;
     color: var(--verderodape--);
-    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
     gap: 5rem;
@@ -114,4 +129,9 @@ footer{
     align-items: center;
     padding: 2rem 1rem;
     gap: 1rem;
+}
+
+
+.barra-de-navegacao{
+    background-color: var(--BegeEscuro--);
 }
