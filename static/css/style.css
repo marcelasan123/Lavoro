@@ -25,7 +25,16 @@ html {
     --titulohome--: #785337; /*Cor Título Home*/
     --subtitulohome--: #876434; /*Cor Subtítulo Home*/
     --verderodape--: #606831; /*Cor Rodapé*/
-    
+    --depoimentos--: #8B9550;
+    --fundobeneficios--: #ADB86C;
+    --textobeneficiosh4--: #343724;
+    --titulobeneficios--: #A68C69;
+    --fundoformulario--: #BBC09D;
+    --verdebotaosalvar--: #8B9550;
+    --funcionalidades--: #D7DFAA;
+    --funcoeslucro--: #9BA657;
+    --tabela--: #ADB86C;
+    --fundo--tabela: #B9A07D;
 }
 
 
@@ -57,115 +66,574 @@ html {
 
 /* Home - ana */
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    background-color: var(--BegeClaro--);
-    font-family: "Merriweather", serif;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0.5rem 0.5rem;
+background-color: var(--BegeClaro--);
+font-family: "Merriweather", serif;
 }
 
-.botaohome{
-    width: 3rem;
-    height: 3rem;
-    background-color: var(--BegeEscuro--);
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
+.botaohome {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 40px;
+height: 30px;
+
+background: none;
+border: none;
+cursor: pointer;
+padding: 0;
+}
+.botaohome span {
+display: block;
+height: 4px;
+background: var(--BegeEscuro--);
+border-radius: 2px;
 }
 .paginainicial{
-    background-image: url(../img/Imagem_de_fundo_home.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    padding-top: 100px;
-    height: 600px;
+background-image: url(../img/Imagem_de_fundo_home.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+text-align: center;
+padding-top: 100px;
+height: 600px;
+width: 100%;
+}
+.textoinicial {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding-right: 80px;
+max-width: 600px;
+margin-left: auto;
+}
+.textoinicial h1 {
+color: var(--titulohome--);
+font-size: 2rem;
+font-family: "Merriweather", serif;
+margin-top: 20px;
+text-align: right;
+}
+.textoinicial p {
+color: var(--subtitulohome--);
+
+margin-top: 1rem;
+font-size: 1.2rem;
+margin-bottom: 240px;
+text-align: right;
+}
+.botaocadastro {
+background-color: var(--BegeEscuro--);
+color: var(--Branco--);
+padding: 0.7rem 3rem;
+text-align: center;
+border-radius: 20px;
+position: absolute;
+margin-left: 35rem;
+}
+.beneficios {
+text-align: center;
+padding: 50px 20px;
+}
+.beneficios h3 {
+margin-top: 2rem;
+font-size: 2rem;
+margin-bottom: 40px;
+color: var(--titulobeneficios--);
+font-family: "Merriweather", serif;
+}
+.beneficios-pai {
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+.beneficio {
+max-width: 250px;
+text-align: center;
+}
+.beneficio img {
+height: 150px;
+
+width: auto;
+margin-bottom: 20px;
 }
 
-.textoinicial h1{
-    color: var(--titulohome--);
-    font-size: 2.5rem;
+.beneficio h4 {
+background-color: var(--fundobeneficios--);
+color: var(--textobeneficiosh4--);
+padding: 8px 16px;
+border-radius: 20px;
+font-size: 1rem;
+font-family: "Merriweather", serif;
+display: inline-block;
+margin-bottom: 15px;
+}
+.beneficio p {
+font-size: 1rem;
+color: var(--Preto--);
+}
+.funcionalidades {
+background-color: var(--funcionalidades--);
+width: 100%;
+padding: 10px 10px;
+}
+.container-funcionalidades {
+display: flex;
+gap: 10px;
+margin-top: 4rem;
+margin-left: 50px;
+margin-bottom: 2rem;
+}
+.card-funcionalidade {
+position: relative;
+width: 300px;
+border-radius: 15px;
+}
+.card-funcionalidade img {
+
+width: 100%;
+display: block;
+border-radius: 15px;
+}
+.card-funcionalidade p {
+position: absolute;
+bottom: 10px;
+left: 50%;
+transform: translateX(-50%);
+color: var(--Branco--);
+font-weight: 600;
+font-size: 1.4rem;
+margin: 0;
+text-align: center;
+}
+.depoimentos {
+background-color: var(--Branco--);
+padding: 40px 20px;
+text-align: center;
+}
+.depoimentos h3 {
+font-size: 2rem;
+font-family: "Merriweather", serif;
+margin-bottom: 30px;
+background-color: var(--depoimentos--);
+display: inline-block;
+padding: 10px 40px;
+border-radius: 20px;
+color: var(--Branco--);
+}
+.depoimentos-container {
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.card-depoimento {
+background: var(--Branco--);
+padding: 20px;
+
+width: 320px;
+border-radius: 8px;
+box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+text-align: left;
+}
+.card-depoimento .nome {
+font-weight: bold;
+margin-bottom: 5px;
+}
+.formulario {
+background-color: var(--fundoformulario--);
+padding: 3rem 2rem;
+text-align: center;
+}
+.formulario h3 {
+font-size: 2rem;
+margin-bottom: 2rem;
+font-weight: bold;
+color: var(--Branco--);
+font-family: "Merriweather", serif;
+}
+.formulario form {
+max-width: 30rem;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+gap: 1.2rem;
+text-align: left;
+}
+.formulario label {
+font-weight: 600;
+color: var(--Branco--);
+margin-bottom: 0.3rem;
+}
+input.avaliacao,
+
+textarea.avaliacao {
+height: 30px;
+width: 100%;
+background-color: var(--Branco--);
+border: none;
+border-radius: 3vh;
+padding: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
-.textoinicial p{
-    color: var(--subtitulohome--);
-    margin-top: 1rem;
-    font-size: 1.2rem;
+.estrelas {
+display: flex;
+gap: 0.5rem;
+margin: 0.5rem 0 1rem;
+}
+
+button {
+background-color: var(--verdebotaosalvar--);
+color: var(--Branco--);
+font-weight: bold;
+border: none;
+padding: 0.7rem 2rem;
+border-radius: 1rem;
+cursor: pointer;
+}
+button:hover {
+background-color: var(--VerdeEscuro--);
 }
 /* home fim - ana */
-
 /* rodapé - ana */
 footer{
-    background-color: var(--BegeClaro--);
-    padding: 1rem;
-    font-size: 0.9rem;
-    color: var(--verderodape--);
-    display: flex;
-    justify-content: space-between;
-    gap: 5rem;
+background-color: var(--BegeClaro--);
+padding: 1rem;
+font-size: 0.9rem;
+color: var(--verderodape--);
+display: flex;
 
+justify-content: space-between;
+gap: 5rem;
+}
+/* rodapé fim - ana */
+/* página lucro -ana */
+.lucro h1{
+font-family: "Merriweather", serif;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: 2em;
+color: var(--subtitulohome--);
+}
+.funcoes{
+gap: 20px;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.funcoes-card{
+background-color: var(--funcoeslucro--) ;
+padding: 3rem 3rem;
+margin: 1rem;
+border-radius: 20px;
+}
+.funcoes-card p{
+color: var(--Branco--);
+font-size: 1.2em;
+}
+.funcoes-card h3{
+color: var(--Branco--);
+font-size: 2em;
+font-weight: 800;
+margin-bottom: 10px;
 }
 
-/* rodapé fim - ana */
+.funcoeslucro{
+display: flex;
+gap: 40px;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+justify-content: center;
+text-align: center;
+}
+.funcoeslucro-card {
+background-color: var(--Branco--);
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+padding: 2rem 2rem;
+width: 400px;
+}
+.funcoeslucro-card h3{
+color: var(--funcoeslucro--);
+margin-top: 20px;
+font-weight: 700;
+font-size: 1.5em;
+}
+/* página lucro fim - ana */
+/* pagina de grafico - ana */
+.lucratividade h1{
+font-family: "Merriweather", serif;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: 2em;
+color: var(--subtitulohome--);
+}
+.graficos{
+gap: 30px;
+justify-content: center;
+align-items: center;
+}
+.graficos-card{
 
+background-color: var(--Branco--);
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+padding: 3rem 3rem;
+margin: 1rem;
+}
+.graficos-card img{
+width: 350px;
+}
+.graficos-card p{
+color: var(--funcoeslucro--);
+font-weight: 700;
+font-size: 1.2rem;
+align-items: center;
+text-align: center;
+}
+/* pagina grafico fim - ana */
+/* pagina tabela - ana */
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card {
+background-color: var(--fundo--tabela);
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+text-align: center;
+max-width: 600px;
+}
+.card h2 {
+color: var(--Branco--);
+margin-bottom: 20px;
+}
+.card table {
+width: 100%;
 
-/* GREGA - INÍCIO */
- .img-cadastro {
+border-collapse: collapse;
+background-color: var(--Branco--);
+border-radius: 8px;
+}
+.card thead {
+background-color: var(--tabela--);
+color: var(--Branco--);
+}
+.card th,
+.card td {
+padding: 12px;
+text-align: center;
+border-bottom: 1px solid var(--Branco--);
+}
+
+.botao-ok {
+margin-top: 100px;
+padding: 10px 25px;
+background-color: var(--verdebotaosalvar--);
+color: var(--Branco--);
+font-size: 16px;
+font-weight: bold;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+font-family: "Merriweather", serif;
+}
+/* pagina tabela fim - ana */
+
+/*css edicao_perfil:*/ 
+.titulo-edicao-perfil h1{
+    margin-top: 20vh;
+    color: #878F55;
+    margin-left: 85vh;
+    font-family: Merriweather;
+}
+
+.img-pessoa-editar{
+    margin-left: 15vh;
+    margin-top: 15vh;
+}
+
+.nome-edicao-perfil{
+    display: flex;
+    flex-direction: column;
+    margin-left: 85vh;
+    font-size: 3vh;
+}
+
+.email-edicao-perfil{
+    display: flex;
+    flex-direction: column;
+    margin-left: 85vh;
+    font-size: 3vh;
+}
+
+.tel-edicao-perfil{
+    display: flex;
+    flex-direction: column;
+    margin-left: 85vh;
+    font-size: 3vh;
+}
+
+.nome-perfil-edicao{
+    margin-left: 84vh;
+    height: 4vh;
+    width: 55vh;
+}
+
+.email-perfil-edicao{
+    margin-left: 78vh;
+    height: 4vh;
+    width: 55vh;
+}
+
+.telefone-perfil-edicao{
+    margin-left: 74vh;
+    height: 4vh;
+    width: 55vh;
+}
+
+.salvar-edicao-perfil{
+    background-color: rgba(155, 166, 87, 1);
+    height: 5vh;
+    width: 20vh;
+    border-radius: 25vh;
+    font-family: Merriweather;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
+    margin-top: 5vh;
+    margin-left: 85vh;
+    font-size: 2.7vh;
+}
+
+.cancelar-edicao{
+    margin-top: 5vh;
+    margin-left: 116vh;
+    color: #665237;
+    font-family: Merriweather;
+}
+
+/*css perfil*/
+.fundobarra h4{
+    margin-left: 3vh;
+    margin-top: 5vh;
+}
+
+.info-pessoal h4{
+    margin-left: 70vh;
+    color: rgba(155, 166, 87, 1);
+    font-family: Merriweather;
+}
+
+.foto-pessoa{
+    margin-left: 15vh;
+    margin-top: 15vh
+}
+
+.nome-peril{
+    margin-top: 12vh;
+    margin-left: -35vh;
+}
+
+.email-perfil{
+    margin-left: -35vh;
+    margin-top: 4vh;
+}
+
+.telefone-perfil{
+    margin-left: -35vh;
+    margin-top: 12vh;
+}
+
+.botao-editar{
+    background-color: rgba(155, 166, 87, 1);
+    height: 5vh;
+    width: 20vh;
+    border-radius: 25vh;
+    font-family: Merriweather;
+    color: #FFFFFF;
+    padding: 1vh;
+    border: none;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
+    margin-top: 15vh;
+    margin-left: -70vh;
+}
+
+/*css login:*/
+.titulo-login{
+    margin-top: 20vh;
+    text-align: center;
+    color: #878F55;
+}
+
+.form-login{
+    background-color: rgba(245, 245, 245, 0.6);
+    padding: 8vh;
+    width: 80vh;
+    margin-left: 71vh;
+    border-radius: 5vh;
+    height: 40vh;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 20%);
+    margin-left: 50vh;
+}
+
+.email-login{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.senha-login{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.entrar-login{
+    background-color: rgba(155, 166, 87, 1);
+    height: 5vh;
+    width: 20vh;
+    border-radius: 25vh;
+    font-family: Merriweather;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 5vh;
+}
+
+.cadastro-login{
+    color: #2d3018;
+    text-align: center;
+}
+
+/*css cadastro:*/
+.img-cadastro {
     width: 100vh;
     height: 55vh;
  }
 
- .fundo-cadastro {
-    background-image: url(/static/img/imgcadastro.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    padding-top: 100px;
-    height: 790px;
- }
-
- .titulo-login{
-    margin-top: 20vh;
- }
-
- .fundo-login{
-    background-image: url(/static/img/imglogin.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    padding-top: 100px;
-    height: 790px;
-    
- }
-
+ 
  .form-cadastro{
     background-color: rgba(245, 245, 245, 0.6);
     padding: 8vh;
     width: 50vh;
     margin-left: 71vh;
     border-radius: 5vh;
-    height: 70vh;
+    height: 80vh;
     justify-content: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
  }
 
- input {
- height: 5vh;
-  width: 50vh;
-  background-color: #F5F5F5;
-  border: none;
-  border-radius: 3vh; 
-  padding: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  margin-top: 10px; 
-  margin-bottom: 10px; 
-  justify-content: center;
-}
-
-.titulo-cadastro{
+ .titulo-cadastro{
     color: rgba(155, 166, 87, 1);
     font-family: Merriweather;
 }
@@ -179,6 +647,7 @@ footer{
     color: #FFFFFF;
     border: none;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+   
 }
 
 .cadastro-nome{
@@ -212,50 +681,27 @@ footer{
 }
 
 
+ .fundo-cadastro {
+    background-image: url(/static/img/imgcadastro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    height: 790px;
+ }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* GREGA - CADASTRO FIM */
-
-
-
-.paginainicial{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 2rem 1rem;
-    gap: 1rem;
-}
-
-.barra-de-navegacao{
-    background-color: var(--BegeEscuro--);
+ input {
+ height: 5vh;
+  width: 50vh;
+  background-color: #F5F5F5;
+  border: none;
+  border-radius: 3vh;
+  padding: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
 }
 
 /* MARCELA CADASTRAR Produto e Insumo*/

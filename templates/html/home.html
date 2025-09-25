@@ -1,98 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
     <title>Lavoro</title>
     <link rel="stylesheet" href="../../static/css/style.css">
+    <link rel="stylesheet" href="../../static/css/responsivo.css">
 </head>
+
 <body>
     <header>
-         <img src="../../static/img/logo.png" alt="Logo da Lavoro">
-        <button class="botaohome">---</button>
+        <img src="../../static/img/logo.png" alt="Logo da Lavoro" class="logo">
+        <button class="botaohome" aria-label="Abrir menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </header>
     <main>
         <section class="paginainicial">
             <div class="textoinicial">
-                <h1>Organize seus produtos e defina preços de forma simples e inteligente<h1>
-                <p>Ferramenta de gestão criada especialmente para pequenos produtores</p>
+                <h1>Organize seus produtos e defina preços de forma
+                    simples e inteligente</h1>
+                <p>Ferramenta de gestão criada especialmente para
+                    pequenos produtores</p>
             </div>
-            
         </section>
-        <a href="cadastro.html">Ver como funciona</a>
-        <section>
+        <a class="botaocadastro" href="cadastro.html">Ver como
+            funciona</a>
+        <section class="beneficios">
             <h3>Benefícios principais</h3>
-            <div>
-                <div>
+            <div class="beneficios-pai">
+                <div class="beneficio">
                     <img src="../../static/img/Icone_beneficios1.png" alt="Gestão de produtos">
                     <h4>Gestão de produtos</h4>
-                    <p>Cadastre e organize seu estoque de forma fácil.</p>
+                    <p>Cadastre e organize seu estoque de forma
+                        fácil.</p>
+
                 </div>
-                <div>
-                    <img src="../../static/img/Icone_beneficios2.png" alt="Precificação Inteligente">
+                <div class="beneficio">
+                    <img src="../../static/img/Icone_beneficios2.png" alt="Precificação inteligente">
                     <h4>Precificação inteligente</h4>
-                    <p>Calcule preços justos levando em conta custos e margem de lucro.</p>
+                    <p>Calcule preços justos levando em conta custos e
+                        margem de lucro.</p>
                 </div>
-                <div>
-                    <img src="../../static/img/Icone_beneficios3.png" alt="Relátorios Claros">
+                <div class="beneficio">
+                    <img src="../../static/img/Icone_beneficios3.png" alt="Relatórios claros">
                     <h4>Relatórios claros</h4>
-                    <p>Veja como estão suas vendas e aumente seus ganhos.</p>
+                    <p>Veja como estão suas vendas e aumente seus
+                        ganhos.</p>
                 </div>
             </div>
         </section>
-        <section>
-            <div>
-                <div>
-                    <img src="../../static/img/funcionalidades1.png" alt="">
+        <section class="funcionalidades">
+            <div class="container-funcionalidades">
+                <div class="card-funcionalidade">
+                    <img src="../../static/img/funcionalidades1.png" alt="Acesso fácil pelo celular">
                     <p>Acesso fácil pelo celular</p>
                 </div>
-                <div>
-                    <img src="../../static/img/funcionalidades2.png" alt="">
+                <div class="card-funcionalidade">
+                    <img src="../../static/img/funcionalidades2.png" alt="Cadastro de produtos">
                     <p>Cadastro de produtos</p>
                 </div>
-                <div>
-                    <img src="../../static/img/funcionalidades3.png" alt="">
+                <div class="card-funcionalidade">
+                    <img src="../../static/img/funcionalidades3.png" alt="Relatórios de vendas e lucros">
                     <p>Relatórios de vendas e lucros</p>
                 </div>
-                <div>
-                    <img src="../../static/img/funcionalidades4.png" alt="">
+                <div class="card-funcionalidade">
+                    <img src="../../static/img/funcinalidades4.png" alt="Definição de preços">
                     <p>Definição de preços</p>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="depoimentos">
+
             <h3>Depoimentos</h3>
-            <div>
-                <p>João Martins</p>
-                <img src="../../static/img/estrelavaaliacao.png" alt="Estrela avaliação">
-                <img src="../../static/img/estrelavaaliacao.png" alt="Estrela avaliação">
-                <img src="../../static/img/estrelavaaliacao.png" alt="Estrela avaliação">
-                <img src="../../static/img/estrelavaaliacao.png" alt="Estrela avaliação">
-                <p>O time da Lavoro é extremamamente profissional e qualificado. Eles realmente se importam com o sucesso do cliente.</p>
-            </div>
-            <div>
-                <p>Camila Oliveira</p>
-                <img src="../../static/img/estrelavaaliacao.png" alt="Estrela avaliação">
-                <img src="../../static/img/estrelavaaliacao.png" alt="Estrela avaliação">
-                <img src="../../static/img/estrelavaaliacao.png" alt="Estrela avaliação">
-                <img src="../../static/img/estrelavaaliacao.png" alt="Estrela avaliação">
-                <img src="../../static/img/estrelavaaliacao.png" alt="Estrela avaliação">
-                <p>Excelente serviço! A Lavoro realmente se preocupa em entender nossas necessidades e se adapta muito bem.</p>
+            <div class="depoimentos-container">
+                <div class="card-depoimento">
+                    <p class="nome"><strong>João Martins</strong></p>
+                    <div class="estrelas">
+                        <img src="../../static/img/estrelavaaliacao.png" alt="Estrela">
+                        <img src="../../static/img/estrelavaaliacao.png" alt="Estrela">
+                        <img src="../../static/img/estrelavaaliacao.png" alt="Estrela">
+                        <img src="../../static/img/estrelavaaliacao.png" alt="Estrela">
+                    </div>
+                    <p>O time da Lavoro é extremamente profissional e
+                        qualificado.
+                        Eles realmente se importam com o sucesso do
+                        cliente.</p>
+                </div>
+                <div class="card-depoimento">
+                    <p class="nome"><strong>Camila
+                            Oliveira</strong></p>
+                    <div class="estrelas">
+                        <img src="../../static/img/estrelavaaliacao.png" alt="Estrela">
+                        <img src="../../static/img/estrelavaaliacao.png" alt="Estrela">
+                        <img src="../../static/img/estrelavaaliacao.png" alt="Estrela">
+                        <img src="../../static/img/estrelavaaliacao.png" alt="Estrela">
+                        <img src="../../static/img/estrelavaaliacao.png" alt="Estrela">
+                    </div>
+                    <p>Excelente serviço! A Lavoro realmente se
+                        preocupa em entender
+                        nossas necessidades e se adapta muito bem.</p>
+                </div>
             </div>
         </section>
-        <section>
+        <section class="formulario">
             <h3>Queremos te ouvir!</h3>
+
             <form action="">
                 <label for="">Nome</label>
-                <input type="text">
+                <input class="avaliacao" type="text">
                 <label for="">Escreva um comentário</label>
-                <textarea></textarea>
+                <textarea class="avaliacao"></textarea>
                 <label for="">Avalie nosso serviço</label>
-                <img src="../../static/img/Icone_de_estrela.png" alt="Estrela para avaliação">
-                <img src="../../static/img/Icone_de_estrela.png" alt="Estrela para avaliação">
-                <img src="../../static/img/Icone_de_estrela.png" alt="Estrela para avaliação">
-                <img src="../../static/img/Icone_de_estrela.png" alt="Estrela para avaliação">
-                <img src="../../static/img/Icone_de_estrela.png" alt="Estrela para avaliação">
+                <div class="estrelas">
+                    <img src="../../static/img/Icone_de_estrela.png" alt="Estrela para avaliação">
+                    <img src="../../static/img/Icone_de_estrela.png" alt="Estrela para avaliação">
+                    <img src="../../static/img/Icone_de_estrela.png" alt="Estrela para avaliação">
+                    <img src="../../static/img/Icone_de_estrela.png" alt="Estrela para avaliação">
+                    <img src="../../static/img/Icone_de_estrela.png" alt="Estrela para avaliação">
+                </div>
                 <button type="submit">Enviar</button>
             </form>
         </section>
@@ -105,7 +135,7 @@
         <div class="contato">
             <div>
                 <img src="../../static/img/Icone_localização.png" alt="Ícone de localização">
-                <p>Rua Barão do Rio Branco - Birigui/SP</p>
+                <p>Rua Barão do Rio Branco - Birigui/SP</p>
             </div>
             <div>
                 <img src="../../static/img/Icone_telefone.png" alt="Ícone de telefone">
@@ -118,4 +148,5 @@
         </div>
     </footer>
 </body>
+
 </html>
