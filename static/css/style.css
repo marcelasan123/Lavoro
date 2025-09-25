@@ -42,6 +42,10 @@ html {
     display: flex;
 }
 
+.d-block{
+    display: block;
+}
+
 .navegar{
     flex-direction: column;
     text-decoration: none;
@@ -816,3 +820,53 @@ font-family: "Merriweather", serif;
     }
 
 
+/*Matheus Produtos*/
+.campo-demonstrar-produto{
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 36em;
+    background-color: var(--CinzaClaro--);
+    padding: 1em;
+    border-radius: 2em;
+    color: var(--VerdeEscuro--);
+}
+
+.produto{
+    align-items: center;
+    text-align: center;
+    gap: 2.8em;
+    margin: 0 1.2em 0 1.2em;
+    background-color: var(--Branco--);
+    padding: 0em 1em 0em 1em;
+    border-radius: 2em;
+    color: var(--Preto--);
+}
+
+.centralização{
+    margin: 2em;
+}
+
+.campo-demonstrar-produto h3{
+    margin-left: 1.4em;
+}
+
+.produto a{
+    color: var(--Preto--);
+}
+
+.produto .BotaoVermelho{
+    background-color: var(--VermelhoPastel--);
+    padding: 0.6em;
+}
+
+.buscar .BotaoVerde{
+    margin-left: 2em;
+}
+
+.buscar .BotaoMarrom{
+    background-color: var(--BegeEscuro--);
+    border-radius: 1em;
+    padding: 0.6em 1em 0.7em 1em;
+}
