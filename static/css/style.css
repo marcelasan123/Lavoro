@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
@@ -7,103 +6,116 @@ html {
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
 }
 
-:root{
-    --BegeEscuro--: #A68C69; /*Cor principal*/
-    --BegeClaro--: #F0E5C9; /*Cor principal*/
-    --VerdeEscuro--:  #878F55; /*Cor Secundaria*/
-    --Preto--: #000000; /*Cor Secundaria*/
-    --VermelhoPastel--:  #D74747; /*Cor Botão*/
-    --Branco--: #FFFFFF; /*Cor Fundo*/
-    --CinzaClaro--: #F5F5F5; /*Cor Detalhes*/
-    --CinzaEscuro--: #E9E9E9; /*Cor Detalhes*/
-    --titulohome--: #785337; /*Cor Título Home*/
-    --subtitulohome--: #876434; /*Cor Subtítulo Home*/
-    --verderodape--: #606831; /*Cor Rodapé*/
-    
+:root {
+  --BegeEscuro--: #A68C69;
+  /*Cor principal*/
+  --BegeClaro--: #F0E5C9;
+  /*Cor principal*/
+  --VerdeEscuro--: #878F55;
+  /*Cor Secundaria*/
+  --Preto--: #000000;
+  /*Cor Secundaria*/
+  --VermelhoPastel--: #D74747;
+  /*Cor Botão*/
+  --Branco--: #FFFFFF;
+  /*Cor Fundo*/
+  --CinzaClaro--: #F5F5F5;
+  /*Cor Detalhes*/
+  --CinzaEscuro--: #E9E9E9;
+  /*Cor Detalhes*/
+  --titulohome--: #785337;
+  /*Cor Título Home*/
+  --subtitulohome--: #876434;
+  /*Cor Subtítulo Home*/
+  --verderodape--: #606831;
+  /*Cor Rodapé*/
+
 }
 
 
-.d-flex{
-    display: flex;
+.d-flex {
+  display: flex;
 }
 
-.navegar{
-    flex-direction: column;
-    text-decoration: none;
-    align-items: baseline;
-    margin-left: 3vh;
+.navegar {
+  flex-direction: column;
+  text-decoration: none;
+  align-items: baseline;
+  margin-left: 3vh;
 }
 
 .navegar a {
-    color: var(--Branco--);
-    margin-top: 2vh;
-    align-items: center;
+  color: var(--Branco--);
+  margin-top: 2vh;
+  align-items: center;
 }
 
 .fundobarra {
-    background-color: var(--BegeEscuro--);
-    height: 70vh;
-    width: 35vh;
-    color: var(--Branco--);
+  background-color: var(--BegeEscuro--);
+  height: 70vh;
+  width: 35vh;
+  color: var(--Branco--);
 }
 
 
 
 /* Home - ana */
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    background-color: var(--BegeClaro--);
-    font-family: "Merriweather", serif;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: var(--BegeClaro--);
+  font-family: "Merriweather", serif;
 }
 
-.botaohome{
-    width: 3rem;
-    height: 3rem;
-    background-color: var(--BegeEscuro--);
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-}
-.paginainicial{
-    background-image: url(../img/Imagem_de_fundo_home.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    padding-top: 100px;
-    height: 600px;
+.botaohome {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--BegeEscuro--);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 
-.textoinicial h1{
-    color: var(--titulohome--);
-    font-size: 2.5rem;
+.paginainicial {
+  background-image: url(../img/Imagem_de_fundo_home.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+  height: 600px;
 }
 
-.textoinicial p{
-    color: var(--subtitulohome--);
-    margin-top: 1rem;
-    font-size: 1.2rem;
+.textoinicial h1 {
+  color: var(--titulohome--);
+  font-size: 2.5rem;
 }
+
+.textoinicial p {
+  color: var(--subtitulohome--);
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
 /* home fim - ana */
 
 /* rodapé - ana */
-footer{
-    background-color: var(--BegeClaro--);
-    padding: 1rem;
-    font-size: 0.9rem;
-    color: var(--verderodape--);
-    display: flex;
-    justify-content: space-between;
-    gap: 5rem;
+footer {
+  background-color: var(--BegeClaro--);
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: var(--verderodape--);
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
 
 }
 
@@ -111,104 +123,104 @@ footer{
 
 
 /* GREGA - INÍCIO */
- .img-cadastro {
-    width: 100vh;
-    height: 55vh;
- }
+.img-cadastro {
+  width: 100vh;
+  height: 55vh;
+}
 
- .fundo-cadastro {
-    background-image: url(/static/img/imgcadastro.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    padding-top: 100px;
-    height: 790px;
- }
+.fundo-cadastro {
+  background-image: url(/static/img/imgcadastro.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+  height: 790px;
+}
 
- .titulo-login{
-    margin-top: 20vh;
- }
+.titulo-login {
+  margin-top: 20vh;
+}
 
- .fundo-login{
-    background-image: url(/static/img/imglogin.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    padding-top: 100px;
-    height: 790px;
-    
- }
+.fundo-login {
+  background-image: url(/static/img/imglogin.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+  height: 790px;
 
- .form-cadastro{
-    background-color: rgba(245, 245, 245, 0.6);
-    padding: 8vh;
-    width: 50vh;
-    margin-left: 71vh;
-    border-radius: 5vh;
-    height: 70vh;
-    justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
- }
+}
 
- input {
- height: 5vh;
+.form-cadastro {
+  background-color: rgba(245, 245, 245, 0.6);
+  padding: 8vh;
+  width: 50vh;
+  margin-left: 71vh;
+  border-radius: 5vh;
+  height: 70vh;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  height: 5vh;
   width: 50vh;
   background-color: #F5F5F5;
   border: none;
-  border-radius: 3vh; 
+  border-radius: 3vh;
   padding: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  margin-top: 10px; 
-  margin-bottom: 10px; 
+  margin-top: 10px;
+  margin-bottom: 10px;
   justify-content: center;
 }
 
-.titulo-cadastro{
-    color: rgba(155, 166, 87, 1);
-    font-family: Merriweather;
+.titulo-cadastro {
+  color: rgba(155, 166, 87, 1);
+  font-family: Merriweather;
 }
 
-.botao-cadas{
-    background-color: rgba(155, 166, 87, 1);
-    height: 5vh;
-    width: 20vh;
-    border-radius: 25vh;
-    font-family: Merriweather;
-    color: #FFFFFF;
-    border: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+.botao-cadas {
+  background-color: rgba(155, 166, 87, 1);
+  height: 5vh;
+  width: 20vh;
+  border-radius: 25vh;
+  font-family: Merriweather;
+  color: #FFFFFF;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-.cadastro-nome{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+.cadastro-nome {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
-.cadastro-telefone{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+.cadastro-telefone {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
-.cadastro-email{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+.cadastro-email {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
-.cadastro-senha{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+.cadastro-senha {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
-.cadastro-confirma{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+.cadastro-confirma {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 
@@ -241,21 +253,21 @@ footer{
 
 
 
- /* GREGA - CADASTRO FIM */
+/* GREGA - CADASTRO FIM */
 
 
 
-.paginainicial{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 2rem 1rem;
-    gap: 1rem;
+.paginainicial {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem 1rem;
+  gap: 1rem;
 }
 
-.barra-de-navegacao{
-    background-color: var(--BegeEscuro--);
+.barra-de-navegacao {
+  background-color: var(--BegeEscuro--);
 }
 
 /* MARCELA CADASTRAR Produto e Insumo*/
@@ -264,7 +276,7 @@ footer{
   color: #7d8b41;
   margin-bottom: 20px;
   text-align: center;
-  
+
 }
 
 .cardastro {
@@ -296,10 +308,10 @@ footer{
   cursor: pointer;
 }
 
- .botoes {
-      display: flex;
-      justify-content: space-between;
-    }
+.botoes {
+  display: flex;
+  justify-content: space-between;
+}
 
 .botao-cancelar {
   background: #d9534f;
@@ -315,58 +327,54 @@ footer{
 
 /* editar insumo  e produto Marcela */
 
-    .edicao-produto {
-      background-color: #f5f1ed;
-      padding: 20px 30px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      width: 400px;
-    }
+.edicao-produto {
+  background-color: #f5f1ed;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
 
-    .edicao-produto h2 {
-      text-align: center;
-      color: #7d8b41;
-      margin-bottom: 25px;
-      
-    }
+.edicao-produto h2 {
+  text-align: center;
+  color: #7d8b41;
+  margin-bottom: 25px;
+}
 
-    form label {
-      display: block;
-      margin-bottom: 5px;
-      font-size: 14px;
-      color: #333;
-    }
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
 
-    form input {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      font-size: 14px;
-    }
+form input {
+  width: 100%;
+  border-radius: 8px;
+  font-size: 14px;
+}
 
-    .botoes-edicao {
-      display: flex;
-      justify-content: space-between;
-    }
+.botoes-edicao {
+  display: flex;
+  justify-content: space-between;
+}
 
-    .btn-cancelar, .btn-salvar {
-      padding: 10px 25px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      font-weight: bold;
-      font-size: 14px;
-    }
+.btn-cancelar,
+.btn-salvar {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
 
-    .btn-cancelar {
-      background-color: #bfa982;
-      color: white;
-    }
+.btn-cancelar {
+  background-color: #bfa982;
+  color: white;
+}
 
-    .btn-salvar {
-      background-color: #7d8b41;
-      color: white;
-    }
-
-
+.btn-salvar {
+  background-color: #7d8b41;
+  color: white;
+}
