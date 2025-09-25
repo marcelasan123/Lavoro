@@ -1,9 +1,24 @@
-@media (max-width: 768px) {
-  .menu {
-    flex-direction: column;
-  }
+@media (max-width: 769px) {
+    body {
+        font-size: 14px;
+    }
 
-  .cabecalho {
-    text-align: center;
-  }
+    .fundobarra {
+        display : none;
+    }
+
+    .cardastro {
+     margin-bottom: 2em;
+    }
+
+    .cadastro-produto h2{
+        margin-bottom: 1em;
+    }
+
+    header {
+        width: 122%;
+    }
+    header img {
+        width: 20%;
+    }
 }
