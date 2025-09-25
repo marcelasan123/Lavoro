@@ -258,6 +258,115 @@ footer{
     background-color: var(--BegeEscuro--);
 }
 
-/* MARCELA CADASTRAR PRODUTO */
+/* MARCELA CADASTRAR Produto e Insumo*/
+
+.cadastro-insumo h2 {
+  color: #7d8b41;
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+
+.cardastro {
+  background: #c8b394;
+  padding: 30px;
+  border-radius: 10px;
+  width: 480px;
+  margin: auto;
+  text-align: left;
+
+}
+
+
+.cardastro input {
+  width: 100%;
+  padding: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 1px 3px rgba(37, 33, 33, 0.267)
+}
+
+.cardastro button {
+  margin-top: 15px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+ .botoes {
+      display: flex;
+      justify-content: space-between;
+    }
+
+.botao-cancelar {
+  background: #d9534f;
+  color: white;
+}
+
+.botao-cadastrar {
+  background: #7d8b41;
+  color: white;
+  align-items: center;
+}
+
+
+/* editar insumo  e produto Marcela */
+
+    .edicao-produto {
+      background-color: #f5f1ed;
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 400px;
+    }
+
+    .edicao-produto h2 {
+      text-align: center;
+      color: #7d8b41;
+      margin-bottom: 25px;
+      
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    form input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    .botoes-edicao {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .btn-cancelar, .btn-salvar {
+      padding: 10px 25px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .btn-cancelar {
+      background-color: #bfa982;
+      color: white;
+    }
+
+    .btn-salvar {
+      background-color: #7d8b41;
+      color: white;
+    }
 
 
