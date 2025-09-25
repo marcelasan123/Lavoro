@@ -708,14 +708,110 @@ font-family: "Merriweather", serif;
   justify-content: center;
 }
 
+.titulo-cadastro {
+  color: rgba(155, 166, 87, 1);
+  font-family: Merriweather;
+}
+
+.botao-cadas {
+  background-color: rgba(155, 166, 87, 1);
+  height: 5vh;
+  width: 20vh;
+  border-radius: 25vh;
+  font-family: Merriweather;
+  color: #FFFFFF;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.cadastro-nome {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.cadastro-telefone {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.cadastro-email {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.cadastro-senha {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.cadastro-confirma {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* GREGA - CADASTRO FIM */
+
+
+
+.paginainicial {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem 1rem;
+  gap: 1rem;
+}
+
+.barra-de-navegacao {
+  background-color: var(--BegeEscuro--);
+}
+
+
 /* MARCELA CADASTRAR Produto e Insumo*/
 
 .cadastro-insumo h2 {
   color: #7d8b41;
   margin-bottom: 20px;
   text-align: center;
-  
+  width: 100%;
+  margin-block: 10px;
 }
+
 
 .cardastro {
   background: #c8b394;
@@ -727,11 +823,15 @@ font-family: "Merriweather", serif;
 
 }
 
+.cadastro-produto {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
 
 .cardastro input {
   width: 100%;
   padding: auto;
-  margin-top: 20px;
   border-radius: 20px;
   border: none;
   box-shadow: 1px 1px 3px rgba(37, 33, 33, 0.267)
@@ -833,7 +933,7 @@ font-family: "Merriweather", serif;
     color: var(--VerdeEscuro--);
 }
 
-.produto{
+.produto {
     align-items: center;
     text-align: center;
     gap: 2.8em;
@@ -842,6 +942,15 @@ font-family: "Merriweather", serif;
     padding: 0em 1em 0em 1em;
     border-radius: 2em;
     color: var(--Preto--);
+  }
+    
+
+
+
+.edicao-produto h2 {
+  text-align: center;
+  color: #7d8b41;
+  margin-bottom: 25px;
 }
 
 .centralização{
@@ -855,6 +964,12 @@ font-family: "Merriweather", serif;
 .produto a{
     color: var(--Preto--);
 }
+
+.botoes-edicao {
+  display: flex;
+  justify-content: space-between;
+  }
+
 
 .produto .BotaoVermelho{
     background-color: var(--VermelhoPastel--);
